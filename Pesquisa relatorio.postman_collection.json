@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "dd79ed9d-8b40-4492-857c-8cd54350b7a6",
+		"name": "Pesquisa relatorio",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21487335",
+		"_collection_link": "https://interstellar-crater-527322.postman.co/workspace/My-Workspace~b4a9f46f-07d3-4ebe-8126-2749037b307b/collection/12280844-dd79ed9d-8b40-4492-857c-8cd54350b7a6?action=share&source=collection_link&creator=21487335"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/search?query=administracao",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "administracao"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pesquisa relatorio postman",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/search?query=administracao",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "administracao"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pesquisa relatorio postman",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/search?query=administracao",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "administracao"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pesquisa relatorio postman 1",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/search?query=administracao",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "administracao"
+						}
+					]
+				},
+				"description": "minha api"
+			},
+			"response": []
+		}
+	]
+}
